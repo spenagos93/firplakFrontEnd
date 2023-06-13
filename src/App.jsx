@@ -1,10 +1,11 @@
 import React from "react";
 import CrearPedido from "./components/crearPedido";
+import PedidosList from "./components/PedidoList";
 
 const App = () => {
   return (
-    <div className="block mt-72">
-      <CrearPedido></CrearPedido>
+    <div className="block mt-20">
+      <PedidosList></PedidosList>
     </div>
   );
 };
